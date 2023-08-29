@@ -1,0 +1,7 @@
+# Desafio
+
+Uma empresa jornalística deseja construir uma base de dados para armazenar resultados passados de copas do mundo de futebol, para acesso por seus repórteres.
+A base de dados armazena informações sobre países que participaram ou sediaram copas do mundo. Cada país é identificado por uma sigla de duas letras e possui um nome. Uma copa é identificada pelo ano em que ocorreu e a base de dados armazena as datas de início e fim da copa, bem como o nome da cidade em que ocorreu a cerimônia de abertura.
+Para cada copa, cada país monta uma equipe diferente de jogadores. Cada equipe tem um treinador e vários jogadores. Tanto treinadores, quanto jogadores estão armazenados em uma base de dados de pessoas, cada uma identificada por um código. Para as pessoas, a base de dados mantém, além do código, seu nome, data de nascimento e país de nascimento. Observar que uma pessoa pode participar de diferentes copas e com diferentes papéis (treinador e jogador). Finalmente, deseja-se armazenar os jogos ocorridos em cada copa. Os jogos são numerados de um em diante dentro de cada copa. Para cada jogo deve-se saber o nome do estádio em que ocorreu, a data e hora do jogo, as equipes que dele participaram, bem como o número de gols de cada equipe.
+
+Construir um modelo ER que modele esta base de dados sem redundâncias.
